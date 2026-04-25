@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/anoshandrews/Documents/music-player/app/.cxx/Debug/604z2w2x/arm64-v8a",
+  "command": "/Users/anoshandrews/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android26 --sysroot=/Users/anoshandrews/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dmusic_player_native_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++20 -fno-limit-debug-info  -fPIC -o CMakeFiles/music_player_native.dir/PCMBuffer.cpp.o -c /Users/anoshandrews/Documents/music-player/app/src/main/cpp/PCMBuffer.cpp",
+  "file": "/Users/anoshandrews/Documents/music-player/app/src/main/cpp/PCMBuffer.cpp"
+},
+{
+  "directory": "/Users/anoshandrews/Documents/music-player/app/.cxx/Debug/604z2w2x/arm64-v8a",
+  "command": "/Users/anoshandrews/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android26 --sysroot=/Users/anoshandrews/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dmusic_player_native_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++20 -fno-limit-debug-info  -fPIC -o CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o -c /Users/anoshandrews/Documents/music-player/app/src/main/cpp/UsbAudioEngine.cpp",
+  "file": "/Users/anoshandrews/Documents/music-player/app/src/main/cpp/UsbAudioEngine.cpp"
+}
+]

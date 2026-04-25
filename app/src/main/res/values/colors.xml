@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="nothing_black">#050505</color>
+    <color name="nothing_panel">#101010</color>
+    <color name="nothing_panel_alt">#171717</color>
+    <color name="nothing_text">#FAFAFA</color>
+    <color name="nothing_muted">#A9A9A9</color>
+    <color name="nothing_red">#FF003C</color>
+</resources>

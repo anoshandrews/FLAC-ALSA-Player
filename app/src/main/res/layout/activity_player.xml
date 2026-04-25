@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_player_root"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/libraryPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_panel"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:id="@+id/selectedTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.02"
+                android:text="@string/no_file_selected"
+                android:textColor="@color/nothing_text"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pickFolderButton"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_button_secondary"
+                    android:fontFamily="monospace"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeMaxTextSize="12sp"
+                    android:letterSpacing="0.06"
+                    android:text="@string/action_pick_folder"
+                    android:textAllCaps="false"
+                    android:textColor="@color/nothing_text" />
+
+                <Button
+                    android:id="@+id/pickFileButton"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_button_secondary"
+                    android:fontFamily="monospace"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeMaxTextSize="12sp"
+                    android:letterSpacing="0.06"
+                    android:text="@string/action_pick_file"
+                    android:textAllCaps="false"
+                    android:textColor="@color/nothing_text" />
+
+                <Button
+                    android:id="@+id/openLibraryButton"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_button_secondary"
+                    android:fontFamily="monospace"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeMaxTextSize="12sp"
+                    android:letterSpacing="0.06"
+                    android:text="@string/action_open_library"
+                    android:textAllCaps="false"
+                    android:textColor="@color/nothing_text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/playerPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_panel"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:letterSpacing="0.22"
+                android:text="@string/title_player"
+                android:textAllCaps="true"
+                android:textColor="@color/nothing_red"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/modeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/mode_idle"
+                android:textColor="@color/nothing_text"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <dev.anosh.musicplayer.ui.AudioVisualizerView
+                android:id="@+id/audioVisualizerView"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:text="@string/visualizer_caption"
+                android:textColor="@color/nothing_muted"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/previousButton"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/bg_transport_button"
+                    android:contentDescription="@string/action_previous"
+                    android:padding="16dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_previous"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/playButton"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:background="@drawable/bg_transport_button_primary"
+                    android:contentDescription="@string/action_play_symbol"
+                    android:enabled="false"
+                    android:padding="22dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_play" />
+
+                <ImageButton
+                    android:id="@+id/nextButton"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/bg_transport_button"
+                    android:contentDescription="@string/action_next"
+                    android:padding="16dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_next"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/stopButton"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_transport_button"
+                android:contentDescription="@string/action_pause_symbol"
+                android:padding="16dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_pause" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:text="@string/volume_label"
+                android:textColor="@color/nothing_text"
+                android:textSize="12sp" />
+
+            <SeekBar
+                android:id="@+id/volumeSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/signalPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_panel"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:letterSpacing="0.22"
+                android:text="@string/title_signal"
+                android:textAllCaps="true"
+                android:textColor="@color/nothing_red"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/refreshUsbButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_button_secondary"
+                android:fontFamily="monospace"
+                android:letterSpacing="0.08"
+                android:text="@string/action_refresh_usb"
+                android:textAllCaps="false"
+                android:textColor="@color/nothing_text" />
+
+            <TextView
+                android:id="@+id/usbCandidateText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:fontFamily="monospace"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/no_usb_candidate"
+                android:textColor="@color/nothing_text"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/usbInfoText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="monospace"
+                android:lineSpacingExtra="2dp"
+                android:maxLines="4"
+                android:text="@string/no_usb_audio_devices"
+                android:textColor="@color/nothing_muted"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+# ninja log v5
+515	583	1775197491526126171	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/armeabi-v7a/libmusic_player_native.so	465ba83d4a3b101d
+0	512	1775197491455922310	CMakeFiles/music_player_native.dir/PCMBuffer.cpp.o	6967f9721b016e2e
+2	474	1775206192706390674	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	4330436270a5b2c6
+474	585	1775206192817772316	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/armeabi-v7a/libmusic_player_native.so	1f5fb0ea7643c92d
+2	685	1775214116256655348	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	4330436270a5b2c6
+687	768	1775214116340624242	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/armeabi-v7a/libmusic_player_native.so	1f5fb0ea7643c92d
+2	395	1775214322678084401	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	4330436270a5b2c6
+401	507	1775214322789988894	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/armeabi-v7a/libmusic_player_native.so	1f5fb0ea7643c92d
+3	1517	1775214971678869806	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	4330436270a5b2c6
+1519	1740	1775214971912560875	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/armeabi-v7a/libmusic_player_native.so	1f5fb0ea7643c92d

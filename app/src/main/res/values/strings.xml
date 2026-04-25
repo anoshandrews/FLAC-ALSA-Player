@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APlayer</string>
+    <string name="player_title">APlayer</string>
+    <string name="player_subtitle">Direct USB where possible. Clean fallback where it is not.</string>
+    <string name="title_phase_one">Phase 1 Verification Player</string>
+    <string name="subtitle_phase_one">Pick a local WAV file and verify PCM playback through AudioTrack before adding USB output.</string>
+    <string name="subtitle_phase_two">Phase 2 adds USB audio-device detection while preserving the baseline WAV playback path.</string>
+    <string name="title_usb_devices">Connected USB Audio Devices</string>
+    <string name="action_refresh_usb">Refresh USB Devices</string>
+    <string name="action_pick_file">Pick Audio File</string>
+    <string name="action_pick_folder">Scan Folder</string>
+    <string name="action_play">Play</string>
+    <string name="action_stop">Pause</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_open_library">Library</string>
+    <string name="volume_label">Volume</string>
+    <string name="action_back">Back</string>
+    <string name="action_play_symbol">Play</string>
+    <string name="action_pause_symbol">Pause</string>
+    <string name="title_library">Library</string>
+    <string name="library_subtitle">Select a track, then return to the player.</string>
+    <string name="title_player">Player</string>
+    <string name="title_signal">Signal Path</string>
+    <string name="artwork_description">Album art</string>
+    <string name="visualizer_caption">Live note energy across the current audio buffer</string>
+    <string name="no_file_selected">No audio file selected.</string>
+    <string name="no_usb_audio_devices">No USB audio devices detected.</string>
+    <string name="no_usb_candidate">No matching USB playback configuration for the selected track yet.</string>
+    <string name="usb_candidate_ready">USB session candidate: %1$s</string>
+    <string name="usb_candidate_reconfigure">USB session candidate requires reconfigure: %1$s</string>
+    <string name="no_usb_candidate_reason">USB path not ready: %1$s</string>
+    <string name="mode_idle">Idle. Load a file and the app will try direct USB first.</string>
+    <string name="mode_requesting_usb">Requesting USB permission for exclusive output…</string>
+    <string name="mode_loading_track">Decoding selected track…</string>
+    <string name="mode_track_selected">Track selected. Decode starts when you press play.</string>
+    <string name="mode_decode_required">decode is deferred until play for lower memory use</string>
+    <string name="mode_direct_usb">Direct USB output active: %1$s</string>
+    <string name="mode_fallback">Fallback to Android audio path: %1$s</string>
+    <string name="mode_no_usb_path">no compatible direct USB endpoint was available</string>
+    <string name="mode_unstable_iso">isochronous direct USB is still unstable on this phone and DAC</string>
+    <string name="mode_usb_candidate_pending">USB candidate found, but direct transport is still limited on this hardware.</string>
+    <string name="mode_stopped">Stopped.</string>
+    <string name="mode_usb_permission_denied">USB permission was denied, so exclusive output could not start.</string>
+    <string name="playlist_info">%1$d/%2$d  %3$s</string>
+</resources>

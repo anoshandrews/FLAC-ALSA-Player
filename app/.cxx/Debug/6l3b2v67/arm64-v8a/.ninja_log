@@ -1,0 +1,11 @@
+# ninja log v5
+567	740	1775197490382899929	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/arm64-v8a/libmusic_player_native.so	1becba3a98aaf38d
+0	564	1775197490206864331	CMakeFiles/music_player_native.dir/PCMBuffer.cpp.o	347d49bf671e0de0
+1	1875	1775206191668377730	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	6514c1f45f547a4b
+1880	2313	1775206192105257481	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/arm64-v8a/libmusic_player_native.so	7ac81965e184c2c3
+2	1922	1775214115103380050	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	6514c1f45f547a4b
+1924	2308	1775214115511830273	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/arm64-v8a/libmusic_player_native.so	7ac81965e184c2c3
+2	1140	1775214322057584973	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	6514c1f45f547a4b
+1141	1325	1775214322243046635	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/arm64-v8a/libmusic_player_native.so	7ac81965e184c2c3
+2	1489	1775214969846657698	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	6514c1f45f547a4b
+1490	1760	1775214970120709851	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/arm64-v8a/libmusic_player_native.so	7ac81965e184c2c3

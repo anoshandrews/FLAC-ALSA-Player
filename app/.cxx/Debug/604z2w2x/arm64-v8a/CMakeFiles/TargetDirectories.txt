@@ -1,0 +1,3 @@
+/Users/anoshandrews/Documents/music-player/app/.cxx/Debug/604z2w2x/arm64-v8a/CMakeFiles/music_player_native.dir
+/Users/anoshandrews/Documents/music-player/app/.cxx/Debug/604z2w2x/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/anoshandrews/Documents/music-player/app/.cxx/Debug/604z2w2x/arm64-v8a/CMakeFiles/rebuild_cache.dir

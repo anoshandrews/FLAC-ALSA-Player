@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/Users/anoshandrews/Documents/music-player/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/anoshandrews/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/anoshandrews/Documents/music-player/app/.cxx/Debug/6l3b2v67/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/anoshandrews/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/anoshandrews/Documents/music-player/app/.cxx/Debug/6l3b2v67/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "music_player_native::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "music_player_native",
+      "output": "/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/x86/libmusic_player_native.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/anoshandrews/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/anoshandrews/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

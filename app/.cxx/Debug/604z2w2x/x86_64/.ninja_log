@@ -1,0 +1,4 @@
+# ninja log v5
+0	480	1775242183205301092	CMakeFiles/music_player_native.dir/PCMBuffer.cpp.o	22d843943dff47fe
+0	504	1775242183229764448	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	2b8a966834280061
+504	557	1775242183284451628	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/604z2w2x/obj/x86_64/libmusic_player_native.so	887811af4abf4fe8

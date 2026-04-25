@@ -1,0 +1,11 @@
+# ninja log v5
+437	492	1775197493432525954	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/x86_64/libmusic_player_native.so	e02fb01ef688d261
+0	434	1775197493375626257	CMakeFiles/music_player_native.dir/PCMBuffer.cpp.o	758b40b36a8ab790
+2	452	1775206194174781915	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	ba986ee3d7da50a3
+454	521	1775206194245976961	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/x86_64/libmusic_player_native.so	5efb8fd06b3de325
+2	518	1775214118063994118	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	ba986ee3d7da50a3
+519	600	1775214118146760472	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/x86_64/libmusic_player_native.so	5efb8fd06b3de325
+2	398	1775214323697244717	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	ba986ee3d7da50a3
+398	460	1775214323761195117	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/x86_64/libmusic_player_native.so	5efb8fd06b3de325
+3	1368	1775214979499515034	CMakeFiles/music_player_native.dir/UsbAudioEngine.cpp.o	ba986ee3d7da50a3
+1369	1485	1775214979620030042	/Users/anoshandrews/Documents/music-player/app/build/intermediates/cxx/Debug/6l3b2v67/obj/x86_64/libmusic_player_native.so	5efb8fd06b3de325
