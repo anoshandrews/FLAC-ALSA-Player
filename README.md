@@ -1,4 +1,3 @@
-````markdown
 # FLAC ALSA Player
 
 A lightweight command-line FLAC player written in C that decodes FLAC audio and streams it directly to ALSA for low-latency playback on Linux.
@@ -95,4 +94,3 @@ This project is licensed under the MIT License.
 ---
 
 If you find this project useful, feel free to ⭐ the repository.
-````
